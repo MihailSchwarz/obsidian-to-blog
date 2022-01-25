@@ -1,0 +1,21 @@
+{
+  "title": "Obsidian to blog",
+  "url": "https://obsidian.canarit.ru",
+  "language": "en",
+  "description": "Блог из заметок Obsidian",
+  "feed": {
+    "subtitle": "I am writing about my experiences.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://obsidian.canarit.ru/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://obsidian.canarit.ru/feed/feed.json"
+  },
+  "author": {
+    "name": "Mihail Schwarz",
+    "email": "youremailaddress@example.com",
+    "url": "https://obsidian.canarit.ru/about-me/"
+  }
+}
