@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инструкция по установке</title>
+    <meta name="description" content=".">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Obsidian to blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Obsidian to blog">
+    <meta property="og:title" content="Инструкция по установке">
+    <meta property="og:description" content=".">
+    <meta property="og:image" content="">
+  </head>
+  <body>
+    <header>
+      <p class="home"><a href="/">Obsidian to blog</a></p>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about-me/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+
+      <h1>Инструкция по установке</h1>
+
+<time datetime="2022-01-25">25 Jan 2022</time><a href="/tags/obsidian/" class="post-tag">obsidian</a>
+
+<h2 id="obsidian-to-blog" tabindex="-1">obsidian-to-blog <a class="direct-link" href="#obsidian-to-blog" aria-hidden="true">#</a></h2>
+<p>Генератор статического сайта на основе markdown заметок в приложении Obsidian</p>
+<h2 id="kak-nachat" tabindex="-1">Как начать <a class="direct-link" href="#kak-nachat" aria-hidden="true">#</a></h2>
+<h3 id="1.-klonirujte-repozitorij" tabindex="-1">1. Клонируйте репозиторий <a class="direct-link" href="#1.-klonirujte-repozitorij" aria-hidden="true">#</a></h3>
+<pre><code>
+git clone https://github.com/MihailSchwarz/obsidian-to-blog.git my-blog-name
+
+</code></pre>
+<h3 id="2.-perejdite-v-papku" tabindex="-1">2. Перейдите в папку <a class="direct-link" href="#2.-perejdite-v-papku" aria-hidden="true">#</a></h3>
+<pre><code>
+cd my-blog-name
+
+</code></pre>
+<h3 id="3.-ustanovite-pakety" tabindex="-1">3. Установите пакеты <a class="direct-link" href="#3.-ustanovite-pakety" aria-hidden="true">#</a></h3>
+<pre><code>
+npm install
+
+</code></pre>
+<h3 id="4.-otredaktirujte-_datametadata.json" tabindex="-1">4. Отредактируйте _data/metadata.json <a class="direct-link" href="#4.-otredaktirujte-_datametadata.json" aria-hidden="true">#</a></h3>
+<h3 id="5.-zapustite-server-eleventy" tabindex="-1">5. Запустите сервер Eleventy <a class="direct-link" href="#5.-zapustite-server-eleventy" aria-hidden="true">#</a></h3>
+<pre><code>
+npx eleventy --serve --watch
+
+</code></pre>
+<h3 id="6.-otkrojte-papku-srcposts-kak-bazu-obsidian-i-redaktirujte-zametki." tabindex="-1">6. Откройте папку src/posts как базу Obsidian и редактируйте заметки. <a class="direct-link" href="#6.-otkrojte-papku-srcposts-kak-bazu-obsidian-i-redaktirujte-zametki." aria-hidden="true">#</a></h3>
+<p><a href="/%D0%BA%D0%B0%D0%BA-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/">Как форматировать заметки</a></p>
+<h3 id="7.-opublikujte-sajt-v-internete" tabindex="-1">7. Опубликуйте сайт в интернете <a class="direct-link" href="#7.-opublikujte-sajt-v-internete" aria-hidden="true">#</a></h3>
+<p>Например, используйте APP в <a href="https://m.do.co/c/da01223adc8e">digitalocean</a>. Создайте беплатное приложение APP, подключите github и свой репозиторий. Выберите папку &quot;_site/&quot; для публикации</p>
+<p><a href="https://www.digitalocean.com/?refcode=da01223adc8e&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" loading="lazy"></a></p>
+
+<hr>
+<ul><li>Previous: <a href="/kak-formatirovat-zametki/">Как форматировать заметки</a></li>
+</ul>
+
+    </main>
+
+    <footer>
+    © 2022 <a href="https://canarit.ru">Mihail Schwarz</a>
+    </footer>
+
+    
+  </body>
+</html>

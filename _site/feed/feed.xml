@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Obsidian to blog</title>
+	<subtitle>I am writing about my experiences.</subtitle>
+	
+	<link href="https://obsidian.canarit.ru/feed/feed.xml" rel="self"/>
+	<link href="https://obsidian.canarit.ru"/>
+	<updated>2022-01-25T18:00:59Z</updated>
+	<id>https://obsidian.canarit.ru/</id>
+	<author>
+		<name>Mihail Schwarz</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Инструкция по установке</title>
+		<link href="https://obsidian.canarit.ru/instrukcziya-po-ustanovke/"/>
+		<updated>2022-01-25T18:00:59Z</updated>
+		<id>https://obsidian.canarit.ru/instrukcziya-po-ustanovke/</id>
+		<content type="html">&lt;h2 id=&quot;obsidian-to-blog&quot; tabindex=&quot;-1&quot;&gt;obsidian-to-blog &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#obsidian-to-blog&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Генератор статического сайта на основе markdown заметок в приложении Obsidian&lt;/p&gt;
+&lt;h2 id=&quot;kak-nachat&quot; tabindex=&quot;-1&quot;&gt;Как начать &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#kak-nachat&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1.-klonirujte-repozitorij&quot; tabindex=&quot;-1&quot;&gt;1. Клонируйте репозиторий &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#1.-klonirujte-repozitorij&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
+git clone https://github.com/MihailSchwarz/obsidian-to-blog.git my-blog-name
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;2.-perejdite-v-papku&quot; tabindex=&quot;-1&quot;&gt;2. Перейдите в папку &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#2.-perejdite-v-papku&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
+cd my-blog-name
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;3.-ustanovite-pakety&quot; tabindex=&quot;-1&quot;&gt;3. Установите пакеты &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#3.-ustanovite-pakety&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
+npm install
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;4.-otredaktirujte-_datametadata.json&quot; tabindex=&quot;-1&quot;&gt;4. Отредактируйте _data/metadata.json &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#4.-otredaktirujte-_datametadata.json&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;5.-zapustite-server-eleventy&quot; tabindex=&quot;-1&quot;&gt;5. Запустите сервер Eleventy &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#5.-zapustite-server-eleventy&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;
+npx eleventy --serve --watch
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;6.-otkrojte-papku-srcposts-kak-bazu-obsidian-i-redaktirujte-zametki.&quot; tabindex=&quot;-1&quot;&gt;6. Откройте папку src/posts как базу Obsidian и редактируйте заметки. &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#6.-otkrojte-papku-srcposts-kak-bazu-obsidian-i-redaktirujte-zametki.&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://obsidian.canarit.ru/%D0%BA%D0%B0%D0%BA-%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8/&quot;&gt;Как форматировать заметки&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;7.-opublikujte-sajt-v-internete&quot; tabindex=&quot;-1&quot;&gt;7. Опубликуйте сайт в интернете &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/instrukcziya-po-ustanovke/#7.-opublikujte-sajt-v-internete&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Например, используйте APP в &lt;a href=&quot;https://m.do.co/c/da01223adc8e&quot;&gt;digitalocean&lt;/a&gt;. Создайте беплатное приложение APP, подключите github и свой репозиторий. Выберите папку &amp;quot;_site/&amp;quot; для публикации&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/?refcode=da01223adc8e&amp;amp;utm_campaign=Referral_Invite&amp;amp;utm_medium=Referral_Program&amp;amp;utm_source=badge&quot;&gt;&lt;img src=&quot;https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg&quot; alt=&quot;DigitalOcean Referral Badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Как форматировать заметки</title>
+		<link href="https://obsidian.canarit.ru/kak-formatirovat-zametki/"/>
+		<updated>2022-01-25T17:54:15Z</updated>
+		<id>https://obsidian.canarit.ru/kak-formatirovat-zametki/</id>
+		<content type="html">&lt;h2 id=&quot;nachalo-kazhdoj-zametki&quot; tabindex=&quot;-1&quot;&gt;Начало каждой заметки &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/kak-formatirovat-zametki/#nachalo-kazhdoj-zametki&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Не забудьте добавить YAML в начало:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: Инструкция по установке
+description: .
+tags: 
+ - obsidian
+layout: layouts/post.njk
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;ssylki-na-drugie-zametki&quot; tabindex=&quot;-1&quot;&gt;Ссылки на другие заметки &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/kak-formatirovat-zametki/#ssylki-na-drugie-zametki&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Скрипт понимает markdown ссылки на другие сайты&lt;/p&gt;
+&lt;pre class=&quot;language-md&quot;&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;span class=&quot;token url&quot;&gt;[&lt;span class=&quot;token content&quot;&gt;Ссылка на внешний сайт&lt;/span&gt;](&lt;span class=&quot;token url&quot;&gt;https://canarit.ru&lt;/span&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Или wiki ссылки на внутренние старницы:&lt;/p&gt;
+&lt;pre class=&quot;language-wiki&quot;&gt;&lt;code class=&quot;language-wiki&quot;&gt;&lt;span class=&quot;token url&quot;&gt;[[intro|Текст ссылки]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;izobrazheniya&quot; tabindex=&quot;-1&quot;&gt;Изображения &lt;a class=&quot;direct-link&quot; href=&quot;https://obsidian.canarit.ru/kak-formatirovat-zametki/#izobrazheniya&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Картинки сохраняются в папке img. Просто перетащите сюда jpg файл, а скрипт сам сделает оптимальные размеры для сайта.&lt;/p&gt;
+&lt;pre class=&quot;language-wiki&quot;&gt;&lt;code class=&quot;language-wiki&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token url&quot;&gt;[Описание картинки]&lt;/span&gt;(img/mirador-la-tarta.jpeg)&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как форматировать заметки</title>
+    <meta name="description" content=".">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Obsidian to blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Obsidian to blog">
+    <meta property="og:title" content="Как форматировать заметки">
+    <meta property="og:description" content=".">
+    <meta property="og:image" content="">
+  </head>
+  <body>
+    <header>
+      <p class="home"><a href="/">Obsidian to blog</a></p>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about-me/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+
+      <h1>Как форматировать заметки</h1>
+
+<time datetime="2022-01-25">25 Jan 2022</time><a href="/tags/obsidian/" class="post-tag">obsidian</a>
+
+<h2 id="nachalo-kazhdoj-zametki" tabindex="-1">Начало каждой заметки <a class="direct-link" href="#nachalo-kazhdoj-zametki" aria-hidden="true">#</a></h2>
+<p>Не забудьте добавить YAML в начало:</p>
+<pre><code>---
+title: Инструкция по установке
+description: .
+tags: 
+ - obsidian
+layout: layouts/post.njk
+---
+</code></pre>
+<h2 id="ssylki-na-drugie-zametki" tabindex="-1">Ссылки на другие заметки <a class="direct-link" href="#ssylki-na-drugie-zametki" aria-hidden="true">#</a></h2>
+<p>Скрипт понимает markdown ссылки на другие сайты</p>
+<pre class="language-md"><code class="language-md"><span class="token url">[<span class="token content">Ссылка на внешний сайт</span>](<span class="token url">https://canarit.ru</span>)</span></code></pre>
+<p>Или wiki ссылки на внутренние старницы:</p>
+<pre class="language-wiki"><code class="language-wiki"><span class="token url">[[intro|Текст ссылки]]</span></code></pre>
+<h2 id="izobrazheniya" tabindex="-1">Изображения <a class="direct-link" href="#izobrazheniya" aria-hidden="true">#</a></h2>
+<p>Картинки сохраняются в папке img. Просто перетащите сюда jpg файл, а скрипт сам сделает оптимальные размеры для сайта.</p>
+<pre class="language-wiki"><code class="language-wiki"><span class="token punctuation">!</span><span class="token url">[Описание картинки]</span>(img/mirador-la-tarta.jpeg)</code></pre>
+
+<hr>
+<ul><li>Next: <a href="/instrukcziya-po-ustanovke/">Инструкция по установке</a></li>
+</ul>
+
+    </main>
+
+    <footer>
+    © 2022 <a href="https://canarit.ru">Mihail Schwarz</a>
+    </footer>
+
+    
+  </body>
+</html>
