@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "31e4cd9f61e029d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a66410c76eae7df",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "posts/vilaflor.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "025cd6b5f2c62b46",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ebb7d35090ca1e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bc3d2accb7603d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c67a5823681fbbd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a4480ac08a0efa9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d85326375f973680",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8442b521f10529d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/vilaflor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6a66410c76eae7df",
+  "lastOpenFiles": [
+    "posts/vilaflor.md",
+    "posts/covid-restrictions.md",
+    "posts/icod.md",
+    "posts/paisaje-lunar.md",
+    "posts/Tenerife-buses.md",
+    "posts/vilaflor 1.md",
+    "posts/thirdpost.md",
+    "posts/secondpost.md",
+    "posts/fourthpost.md",
+    "posts/firstpost.md"
+  ]
+}

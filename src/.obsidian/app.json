@@ -1,0 +1,6 @@
+{
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "posts/images",
+  "useMarkdownLinks": true,
+  "promptDelete": false
+}

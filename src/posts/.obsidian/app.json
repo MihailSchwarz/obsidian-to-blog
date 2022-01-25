@@ -1,0 +1,9 @@
+{
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "img",
+  "newLinkFormat": "absolute",
+  "livePreview": true,
+  "showFrontmatter": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
+}

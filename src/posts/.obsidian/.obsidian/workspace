@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "e63a425c465bc54d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e65be96a67cda62b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "posts/Paisaje Lunar.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8baf8e06ccc1d6c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "244081010037acb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4079ab349df63484",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "02fa05c060968105",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8e64fb102d54d496",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a589c073bdbb6ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41a33f276a9af7ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/Paisaje Lunar.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e65be96a67cda62b",
+  "lastOpenFiles": [
+    "posts/Paisaje Lunar.md",
+    "posts/lunar.jpg",
+    "Paisaje Lunar.md",
+    "icod.md",
+    "lunar.jpg",
+    "firstpost.md"
+  ]
+}
