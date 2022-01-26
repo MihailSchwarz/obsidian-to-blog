@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Инструкция по установке.md",
+            "file": "Тестовая заметка.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Инструкция по установке.md",
+                "file": "Тестовая заметка.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "a08699260e26fabb",
   "lastOpenFiles": [
-    "Инструкция по установке.md",
+    "Тестовая заметка.md",
     "Как форматировать заметки.md",
+    "Инструкция по установке.md",
     "Las Americas.md",
     "Tenerife buses.md",
     "Tenerife.md",
     "Paisaje Lunar.md",
     "Mirador La Tarta.md",
     "Las Teresitas.md",
-    "covid-restrictions.md",
-    "Puerto de la Cruz.md"
+    "covid-restrictions.md"
   ]
 }
